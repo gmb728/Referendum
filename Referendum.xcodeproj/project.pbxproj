@@ -12,6 +12,8 @@
 		DD2594A021AFBC3C00FFAAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD25949E21AFBC3C00FFAAF6 /* Main.storyboard */; };
 		DD2594A221AFBC3D00FFAAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2594A121AFBC3D00FFAAF6 /* Assets.xcassets */; };
 		DD2594A521AFBC3D00FFAAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2594A321AFBC3D00FFAAF6 /* LaunchScreen.storyboard */; };
+		DD2594AF21AFBC9E00FFAAF6 /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2594AE21AFBC9E00FFAAF6 /* SubjectTableViewController.swift */; };
+		DD2594B121AFBDF500FFAAF6 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2594B021AFBDF500FFAAF6 /* Information.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD2594A121AFBC3D00FFAAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2594A421AFBC3D00FFAAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2594A621AFBC3D00FFAAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2594AE21AFBC9E00FFAAF6 /* SubjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewController.swift; sourceTree = "<group>"; };
+		DD2594B021AFBDF500FFAAF6 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				DD25949A21AFBC3C00FFAAF6 /* AppDelegate.swift */,
-				DD25949C21AFBC3C00FFAAF6 /* ViewController.swift */,
 				DD25949E21AFBC3C00FFAAF6 /* Main.storyboard */,
-				DD2594A121AFBC3D00FFAAF6 /* Assets.xcassets */,
+				DD25949C21AFBC3C00FFAAF6 /* ViewController.swift */,
+				DD2594AE21AFBC9E00FFAAF6 /* SubjectTableViewController.swift */,
+				DD2594B021AFBDF500FFAAF6 /* Information.swift */,
 				DD2594A321AFBC3D00FFAAF6 /* LaunchScreen.storyboard */,
+				DD2594A121AFBC3D00FFAAF6 /* Assets.xcassets */,
 				DD2594A621AFBC3D00FFAAF6 /* Info.plist */,
 			);
 			path = Referendum;
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2594B121AFBDF500FFAAF6 /* Information.swift in Sources */,
+				DD2594AF21AFBC9E00FFAAF6 /* SubjectTableViewController.swift in Sources */,
 				DD25949D21AFBC3C00FFAAF6 /* ViewController.swift in Sources */,
 				DD25949B21AFBC3C00FFAAF6 /* AppDelegate.swift in Sources */,
 			);
